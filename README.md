@@ -39,7 +39,7 @@ Once you are inside your docker or singularity container, you can start a jupyte
 
 ```
 cd <repo_location>
-jupyter lab --port <your_port_number> 
+jupyter lab --port <your_port_number> --no-browser 
 ```
 
 Your port number here and everywhere else can in principle be anything (although needs to be the same everywhere, but since there might be unconscious overlaps, please choose a random number between 10000 and 11000.
