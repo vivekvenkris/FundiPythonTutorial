@@ -41,7 +41,7 @@ cd <repo_location>
 jupyter lab --port <your_port_number> --no-browser 
 ```
 
-Your port number here and everywhere else can in principle be anything (although needs to be the same everywhere, but since there might be unconscious overlaps, please choose a random number between 10000 and 11000.
+Your port number here and everywhere else can in principle be anything (although needs to be the same everywhere), but since there might be unconscious overlaps, please choose a random number between 10000 and 11000.
 
 If you are running docker, you need to also add `--allow_root --ip 0.0.0.0` to your jupyter lab command. 
 If you are running singularity, you need to forward the port you are using to your localhost. You can do that by requesting a port forward by doing:
