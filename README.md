@@ -26,13 +26,12 @@ docker run -p <your_port_number>:<your_port_number> -v <repo_location>:/<repo_lo
 
 ## Use Singularity
 
-If you are using singularity, you can use either your personal machine or one of the MPIfR machines that has singularity installed (E.g: dogmatix0). You can install singularity on your local machine using instructions from [here](https://sylabs.io/guides/3.0/user-guide/installation.html). The singularity image can either be downloaded from google drive [here](https://drive.google.com/drive/folders/1ASX0Qhl7V39wlefxK_FGmo7luV648Chc?usp=sharing) or from the FPRA meerkat partition here: `/fpra/mkat/01/users/vivek/singularity_images/vivekvenkris_fundi_python_tutorial-2021-10-03-5dd4a33d25e1.sif`. 
+If you are using singularity, you can use either your personal machine or one of the MPIfR machines that has singularity installed (E.g: dogmatix0). You can install singularity on your local machine using instructions from [here](https://sylabs.io/guides/3.0/user-guide/installation.html). The singularity image can either be downloaded from google drive [here](https://drive.google.com/drive/folders/1ASX0Qhl7V39wlefxK_FGmo7luV648Chc?usp=sharing) or from the FPRA meerkat partition here: `/fpra/mkat/01/users/vivek/singularity_images/vivekvenkris_fundi_python_tutorial-2021-10-03-5dd4a33d25e1.sif`. Note that not all will have permissions to access this directory, so revert to downloading from Google Drive if you cant download from here. 
 
 Once you have downloaded or copied the singularity image, you can run it by doing 
 ```
 singularity shell -B <repo_location>:/<repo_location> /fpra/mkat/01/users/vivek/singularity_images/vivekvenkris_fundi_python_tutorial-2021-10-03-5dd4a33d25e1.sif
 ```
-
 ## Using Jupyter notebook
 
 Once you are inside your docker or singularity container, you can start a jupyter notebook by doing the following
