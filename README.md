@@ -20,7 +20,7 @@ docker build -t fundi_python_tutorial .
 Once this is done, you can run the container by doing:
 
 ```
-docker run -p <your_port_number>:<your_port_number> -v <repo_location>:/<repo_location> vivekvenkris/fundi_python_tutorial
+docker run -it -p <your_port_number>:<your_port_number> -v <repo_location>:/<repo_location> vivekvenkris/fundi_python_tutorial
 ```
 
 
